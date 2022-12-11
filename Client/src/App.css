@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: calc(100vh - 34px);
+  text-align: center !important;
+}
+
+.light {
+  background-size: contain;
+background-image: url("./Assets/Images/white-background-img.jpg");
+  color: black;
+}
+ .dark {
+  background-color: rgba(0, 0, 0, 0.93);
+  color: white;
+} 
+
+.my-swal{
+  z-index: 2000 !important;
+  width: 290 !important;
+}

@@ -1,0 +1,28 @@
+.followed-vacations-container{
+  display: inline-block;
+}
+
+.followed-vacations{
+  background-color: white;
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid #9e72d1 ;
+  border-radius: 15px !important;
+}
+
+.followed-vacations > button{
+  color: red;
+  padding-left: 2px;
+}
+
+.followers-sticky-button {
+  position: fixed; 
+  bottom: 40%; 
+  right: 2%; 
+  z-index: 99;
+}
+
+.followers-sticky-button > button{
+  background-color: white !important ;
+}

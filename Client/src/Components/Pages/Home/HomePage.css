@@ -1,0 +1,45 @@
+.home-container {
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
+}
+
+.project-info {
+  width: 40%;
+  display: inline-block;
+  box-shadow: 0 10px 30px 0 white(204, 212, 87, 0.678);
+  background-color: #6699ffdf;
+  border: 2px solid white;
+  margin: 1%;
+  font-family: cairo;
+}
+
+.project-cooming-soon {
+  vertical-align: top !important;
+  width: 40%;
+  display: inline-block;
+  background-color: #9e72d1d5;
+  border: 2px solid white;
+  margin: 1%;
+  font-family: cairo;
+}
+
+.project-info,
+.project-cooming-soon li {
+  list-style-position: inside !important;
+  list-style: decimal;
+}
+
+.switch-buttons > button {
+  top: 0 !important;
+  float: left;
+  background-color: #9e72d16f;
+}
+.second-switch-buttons > button {
+  top: 0 !important;
+  float: left;
+}
+
+.project-text {
+  padding: 3%;
+}

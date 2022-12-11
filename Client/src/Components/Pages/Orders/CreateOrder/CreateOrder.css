@@ -1,0 +1,53 @@
+.create-vacation {
+  color: black;
+  display: inline-block;
+  margin: 1%;
+  border-radius: 10px;
+  border: 2.5px solid rgb(144, 119, 202);
+  padding: 15px;
+  width: 400px;
+  max-height: 400px;
+  height: 400px;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.755);
+  font-family: "Cairo";
+}
+
+.vacations-number {
+  padding: 1%;
+  font-weight: bold;
+  color: #6699ff;
+  float: left;
+}
+.delete-btn {
+  padding-right: 0 !important;
+  color: #d32f2f !important;
+  float: right;
+}
+
+.vacation-title {
+  margin: auto !important;
+  border-bottom: 2px solid #6699ff;
+}
+
+.vacation-image {
+  padding: 1%;
+  border-bottom: 2px solid #6699ff;
+}
+
+.vacation-details {
+  padding: 2%;
+  float: left;
+  display: inline;
+  font-size: 16px;
+  text-align: left !important;
+}
+
+.vacation-dates{
+padding: 2%;
+  float: right;
+  text-align: right !important;
+}
+.vacation-details > button {
+  min-width: 5px !important;
+}

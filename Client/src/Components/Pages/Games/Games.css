@@ -1,0 +1,41 @@
+.word-game-content{
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh !important;
+    background-color: black ;
+    color: #00b800;
+    padding: 3.5%;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+  }
+  
+  .word-game-header{
+    font-size: 20px;
+  }
+  
+  .word-game-text{
+    font-family: 'Press Start 2P', cursive;
+    border: 3px solid #00b800;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    outline: none;
+    height: 200px;
+    background: #00b800;
+    padding: 10px;
+  }
+  
+  textarea:disabled {
+    background-color: #a5a2a2;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .games-buttons > button {
+    background-color: #00b800;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }

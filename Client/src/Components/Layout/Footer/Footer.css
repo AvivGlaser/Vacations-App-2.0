@@ -1,0 +1,38 @@
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0 !important;
+    vertical-align: bottom !important;
+  }
+
+  
+  .footer-basic {
+   background-color: #80aaff !important;
+  }
+
+  .footer-basic  a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+    padding: 0.5%;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+  }
+  
+  .footer-basic .social > a {
+    display:inline-block;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:1%;
+    color:inherit;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }

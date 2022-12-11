@@ -1,0 +1,40 @@
+
+.vacations-page{
+  margin-bottom: 2%;
+}
+
+.vacations-sticky-btn{
+    position: fixed; 
+    bottom: 30%; 
+    right: 2%; 
+    z-index: 99; 
+  }
+
+  .back-to-top{
+    position: fixed; 
+    bottom: 19%; 
+    right: 2%; 
+    z-index: 99;
+  }
+  .back-to-top > button{
+    background-color: darkslateblue !important;
+  }
+  .add-vacation{
+    display: inline-block;
+  }
+  
+  .new-vacation-preview{
+    display: inline-block;
+    margin: 1%;
+    vertical-align: top;
+  }
+  
+  .new-vacation-preview > p{
+    text-transform: uppercase;
+    background-color:  #56baed;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 13px;
+    border-radius: 5px;
+  }

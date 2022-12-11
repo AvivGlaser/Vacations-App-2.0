@@ -1,0 +1,35 @@
+.orders-container{
+  display: inline-block;
+
+}
+.no-orders-header{
+  margin: auto ;
+  margin-bottom: 2%;
+  width: 35%;
+  font-family: "Cairo", sans-serif;
+  background-color: #9e72d16f;
+  padding: 1%;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.vacation-total-price {
+  margin: auto;
+  display: block;
+  font-family: "Cairo", sans-serif;
+  font-size: 22px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 300px;
+    background-color: #9e72d16f;
+    padding: 15px;
+    margin-bottom: 2%;
+  }
+  .vacation-total-price > button{
+    width: 150px;
+    padding: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+  }
+
+

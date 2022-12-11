@@ -1,0 +1,15 @@
+.more-info > div{
+    margin: auto;
+    justify-content: center;
+    display: inline-block;
+    overflow-x: hidden;
+    padding: 1%;
+    width: 500px;
+    height: 500px; 
+
+  }
+  
+  .more-info{
+    margin: 2%;
+  }
+  

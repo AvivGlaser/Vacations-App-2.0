@@ -1,0 +1,53 @@
+
+  .vacation-preview{
+    vertical-align: top !important;
+    margin: 1%;
+    display: inline-block;
+  }
+  .vacation-preview > p{
+    text-transform: uppercase;
+    background-color:  #54a3cdd1;
+    color: white;
+    margin-bottom: 1%;
+    font-size: 12px;
+    border-radius: 10px;
+    width: 300px;
+  }
+
+  .vacation-form {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1%;
+    padding: 25px;
+    width: 300px;
+    background-color:#FFFFFF;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px 10px  #54a3cd9e !important;
+    margin-bottom: 3%;
+  }
+
+  .vacation-form > label{
+    text-transform: none;
+    font-size: 14px;
+    color: black;
+  }
+
+  .vacation-form-btn {
+    display: inline-block !important;
+    margin: auto !important;
+    width: 65% !important;
+  }
+  .date-picker{
+    background-color: #54a3cd9e;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center !important;
+    padding: 5px;
+    margin-bottom: 2%;
+    max-width: 130px;
+  }
+
+  .react-datepicker-popper {
+    z-index: 3 !important;
+  }
+

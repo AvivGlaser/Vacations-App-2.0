@@ -1,0 +1,27 @@
+.search-input {
+  padding: 3px;
+  width: 40%;
+  height: 38px;
+  max-width: 500px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px; 
+  margin-bottom: 1%;
+}
+
+
+.search-input-label {
+  background-color: #a590bdd5;
+  font-family: "Cairo", sans-serif;
+  margin-bottom: 0%;
+  padding: 5px !important;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 2px !important;
+}
+
+
+
+

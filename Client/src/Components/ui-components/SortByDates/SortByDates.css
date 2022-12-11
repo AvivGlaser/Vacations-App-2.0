@@ -1,0 +1,38 @@
+.sortByDatesForm {
+  font-family: "Cairo", sans-serif;
+  height: 200px;
+  margin: 1%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: -10px 18px 15px 10px rgba(43, 1, 67, 0.44);
+  background-color: rgba(240, 255, 255, 0.842);
+  border: 3px solid #9e72d16f;
+  width: 700px;
+}
+.sortByDatesForm > h3 {
+  float: left;
+  padding: 10px;
+  text-decoration: 3px solid underline #9e72d16f;
+}
+
+.datePickers {
+    width: 500px;
+  display: inline-flex;
+}
+.sortByDatesPicker {
+    display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.datePickers > label {
+  display: contents;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sortByDatesButton {
+    margin-top: 3%;
+  display: block;
+}

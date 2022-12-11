@@ -1,0 +1,150 @@
+
+.nav-bar {
+  display: inline-flex !important;
+  list-style-type: none;
+  top: 0 !important;
+  justify-content: center;
+  justify-items: center;
+  background-color: #80aaff;
+  height: 70px;
+}
+.theme-toggle-btn{
+  background-color: #6699ff !important ;
+  color: white !important;
+  min-width: 110px !important;
+}
+.nav-logo {
+  padding: 5px;
+  float: left !important;
+  justify-content: left;
+}
+
+.nav-bar :hover{
+  transition: 2s ease-out infinite;
+}
+
+li a {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 20px;
+  width: 110px;
+  font-size: 15px;
+  color: #edf5e1;
+  text-decoration: none !important;
+  top: 0 !important;
+  transition: 1.5s;
+
+}
+
+li a:hover .circle {
+  color: whitesmoke;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  font-weight: bolder;
+  width: 40px;
+  height: 20px;
+  border-radius: 100%;
+  animation: illuminate 3s ease-out infinite;
+  background: illumination;
+}
+
+.nav-bar , ul{
+  margin-bottom: 0 !important;
+}
+
+.nav-bar li a{
+  height: 70px !important;
+}
+
+li a .nav-title {
+  text-align: center !important;
+  font-size: 0px;
+  color: whitesmoke !important;
+}
+
+.nav-title{
+  text-align: center !important;
+  margin: auto !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  margin: 5% !important;
+}
+
+li a:hover .nav-title {
+  transform: translateY(5px);
+  font-size: 13px;
+  transition: 0.7s;
+  text-align: center !important;
+  justify-content: center !important;
+  justify-items: center !important;
+}
+li a{
+  display: inline-block;
+}
+
+li a.nav-title:hover {
+  transform: translateY(20px);
+}
+
+
+.nav-bar li:first-child a {
+  background: #001a4d !important;
+  float: left !important;
+  margin-right: 0 !important;
+}
+
+.nav-bar li:nth-child(2) a {
+  background:#002266 !important;
+}
+
+.nav-bar li:nth-child(3) a {
+  background: #002b80 !important;
+}
+
+.nav-bar li:nth-child(4) a {
+  background:#003399 !important;
+}
+
+.nav-bar li:nth-child(5) a {
+  background:#003cb3 !important;
+}
+.nav-bar li:nth-child(6) a {
+  background:#0044cc !important;
+}
+.nav-bar li:nth-child(7) a {
+  background:#004de6 !important;
+}
+.nav-bar li:nth-child(8) a {
+  background:#0055ff !important;
+}
+.nav-bar li:nth-child(9) a {
+  background: #1a66ff !important;
+}
+.nav-bar li:nth-child(10) a {
+  background: #3377ff !important;
+}
+/* .nav-bar li:nth-child(11) a {
+  background:#4d88ff !important;
+} */
+
+@keyframes illuminate {
+  0% {
+    transform: scale(0.7, 0.7);
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+.logout-btn{
+  bottom: 15%; 
+  z-index: 80; 
+  padding: 15px;
+}

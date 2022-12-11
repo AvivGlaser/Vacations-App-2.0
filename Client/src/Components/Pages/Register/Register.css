@@ -1,0 +1,9 @@
+.register-page {
+  background-color: #fafaf8b4;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+  height: 95vh;
+}
+

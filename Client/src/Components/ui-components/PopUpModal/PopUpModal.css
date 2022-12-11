@@ -1,0 +1,12 @@
+.pop-up-modal {
+  text-align: center !important;
+    margin: auto;
+    width: 60%;
+  }
+  .pop-up-title{
+    text-decoration:underline 2px solid rgba(0, 0, 0, 0.547);
+  }
+  .pop-up-btn{
+    justify-content: center !important;
+  }
+  

@@ -1,0 +1,112 @@
+.register-header,
+.regiester-footer {
+  display: block;
+  position: relative;
+  z-index: 1;
+
+}
+.register-header {
+  color: #ebeff2;
+  padding: 2%;
+}
+@media (max-width: 375px) {
+  register-header {
+    padding: 40px 24px;
+  }
+}
+.register-header > h3 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.register-header > h4 {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 400px) {
+  main {
+    padding: 0 24px;
+  }
+}
+
+.register-form {
+  margin: auto;
+  margin-top: 4.5%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+}
+
+.registration-form{
+    display: inline-grid;
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgba(226, 227, 232, 0.75);
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(226, 227, 232, 0.75);
+  font-size: 16px;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(226, 227, 232, 0.75);
+  font-size: 16px;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(226, 227, 232, 0.75);
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(226, 227, 232, 0.75);
+  font-size: 16px;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 800px;
+  height: 675px;
+  margin-top: -550px;
+  margin-left: -400px;
+  background: #5b94e3;
+  border-radius: 40%;
+  -webkit-animation: shift 20s infinite linear;
+  animation: shift 20s infinite linear;
+  z-index: 0;
+}
+
+@-webkit-keyframes shift {
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shift {
+  from {
+    transform: rotate(360deg);
+  }
+}
+.already-have-account {
+  float: right !important;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 3%;
+  background-color: #006aff6c;
+}

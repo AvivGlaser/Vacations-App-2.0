@@ -1,0 +1,13 @@
+.likes > button{
+bottom: 0 !important;
+text-align: center;
+background-color: darkslateblue;
+}
+.likes {
+    bottom: 0 !important;
+text-align: center !important;
+margin: 2%;
+
+
+
+}
